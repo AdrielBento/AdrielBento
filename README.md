@@ -29,9 +29,9 @@
 ---
 
 <img align="left" alt="AdrielBento Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=AdrielBento&show_icons=true&hide_border=true" />
-<img align="left" alt="AdrielBento Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdrielBento&show_icons=true&hide_border=true" />
-<img align="left" alt="AdrielBento Github Stats" src="hhttps://github-readme-stats.vercel.app/api/pin?username=AdrielBento&repo=github-readme-stats&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" />
-
+<br />
+<img align="left" alt="AdrielBento Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdrielBento&show_icons=true&hide_border=true&layout=compact" />
+<br />
 
 [website]: https://codeSTACKr.com
 [twitter]: https://twitter.com/codeSTACKr
