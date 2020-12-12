@@ -26,13 +26,6 @@
 <br />
 <br />
 
----
-
-<img align="left" alt="AdrielBento Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=AdrielBento&show_icons=true&hide_border=true" />
-<br />
-<img align="left" alt="AdrielBento Github Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdrielBento&show_icons=true&hide_border=true&layout=compact" />
-<br />
-
 [website]: https://codeSTACKr.com
 [twitter]: https://twitter.com/codeSTACKr
 [youtube]: https://www.youtube.com/channel/UCqOKlNu4z1ucSBzxopKeuLQ
