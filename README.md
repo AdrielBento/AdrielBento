@@ -2,7 +2,7 @@
 
 ## I'm a Software Developer!
 - 🔭 I’m currently working on a [Tecnofit](https://www.tecnofit.com.br)
-- 🥅 2020 Goals: Contribute more to Open Source projects
+- 🥅 2021 Goals: Learn other programming paradigms
 - ⚡ Fun fact: I love classical music and philosophy
 
 ### Connect with me:
