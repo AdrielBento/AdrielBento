@@ -1,10 +1,5 @@
-### Hi there, I'm Adriel <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-<br />
-<a href="https://github.com/vbrazo/github-profile-views-counter">
-  <img src="https://komarev.com/ghpvc/?username=AdrielBento">
-</a>
+## Hi there, I'm Adriel <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
-## I'm a Software Developer! 
 - 🔭 I’m currently studying Elixir
 - 🥅 2021 Goals: Learn other programming paradigms
 - ⚡ Fun fact: I love classical music and philosophy
@@ -13,6 +8,10 @@
   - 💻 The DevOps Handbook
   - 🐦 The Phoenix Project
   
+<br />
+<a href="https://github.com/vbrazo/github-profile-views-counter">
+  <img src="https://komarev.com/ghpvc/?username=AdrielBento&color=blueviolet&style=plastic">
+</a>
 
 ### Connect with me:
 [linkedin]: https://www.linkedin.com/in/adriel-bento-4b9921138/
