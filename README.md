@@ -1,5 +1,3 @@
-## Hi there, I'm Adriel <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
-
 <a href="https://github.com/vbrazo/github-profile-views-counter">
   <img src="https://komarev.com/ghpvc/?username=AdrielBento&color=blueviolet&style=plastic">
 </a>
