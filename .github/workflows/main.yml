@@ -62,4 +62,4 @@ jobs:
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites
           plugin_anilist_shuffle: yes
-          plugin_anilist_user: .user.AdrielBento
+          plugin_anilist_user: AdrielBento
