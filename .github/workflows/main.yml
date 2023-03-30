@@ -56,7 +56,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_notable_types: commit
-          plugin_anilist: yes
+          plugin_anilist: no
           plugin_anilist_limit: 2
           plugin_anilist_limit_characters: 22
           plugin_anilist_medias: anime
