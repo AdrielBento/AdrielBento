@@ -38,11 +38,11 @@
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -84,13 +84,13 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="177.4357395646483" height="8" fill="#6e4a7e"/>
-                    <rect mask="url(#languages-bar)" x="177.4357395646483" y="0" width="99.87666650506617" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="277.3124060697144" y="0" width="90.28283317981287" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="367.59523924952725" y="0" width="83.42643137635139" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="451.0216706258787" y="0" width="7.553303922043923" height="8" fill="#c6538c"/>
-                    <rect mask="url(#languages-bar)" x="458.57497454792264" y="0" width="0.795025936878848" height="8" fill="#384d54"/>
-                    <rect mask="url(#languages-bar)" x="459.37000048480144" y="0" width="0.6299995151985263" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="182.35347638544516" height="8" fill="#6e4a7e"/>
+                    <rect mask="url(#languages-bar)" x="182.35347638544516" y="0" width="98.13841709003518" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="280.49189347548037" y="0" width="88.71155444721529" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="369.2034479226957" y="0" width="81.97448118004893" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="451.17792910274466" y="0" width="7.421846529807287" height="8" fill="#c6538c"/>
+                    <rect mask="url(#languages-bar)" x="458.5997756325519" y="0" width="0.7811893380207552" height="8" fill="#384d54"/>
+                    <rect mask="url(#languages-bar)" x="459.3809649705727" y="0" width="0.6190350294273866" height="8" fill="#41b883"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
@@ -186,8 +186,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d6f0475</div>
-                                        <div class="message">🐛 fix(github_test.exs): remove espaços em branco desnecessários na definição do mapa de resposta</div>
+                                        <div class="sha">#1558610</div>
+                                        <div class="message">📝 docs(README.md): adiciona badge de cobertura de testes do Coveralls.io</div>
                                     </div>
                                 </div>
                             </section>
@@ -206,8 +206,8 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#cf86b0e</div>
-                                        <div class="message">🔥 chore(page_controller_test.exs): remove arquivo de teste obsoleto</div>
+                                        <div class="sha">#6e01a82</div>
+                                        <div class="message">📝 docs(README.md): atualiza o título do projeto e adiciona badge de testes</div>
                                     </div>
                                 </div>
                             </section>
@@ -235,7 +235,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 17 Jul 2023, 15:05:12 (timezone America/Sao_Paulo) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 18 Jul 2023, 15:05:14 (timezone America/Sao_Paulo) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
