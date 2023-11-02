@@ -30,19 +30,19 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="150" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="165" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -189,22 +189,9 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d12f7cf</div>
-                                        <div class="message">chore(deps): bump @prisma/client from 4.12.0 to 5.5.2 (#46)
-
-Bumps [@prisma/client](https://github.com/prisma/prisma/tree/HEAD/packages/client) from 4.12.0 to 5.5.2.
-- [Release notes](https://github.com/prisma/prisma/releases)
-- [Commits](https://github.com/prisma/prisma/commits/5.5.2/packages/client)
-
----
-updated-dependencies:
-- dependency-name: "@prisma/client"
-  dependency-type: direct:production
-  update-type: version-update:semver-major
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</div>
+                                        <div class="sha">#84e4897</div>
+                                        <div class="message">🔧 fix(app.module.ts): adiciona SessionService como um provedor no AppModule
+🔧 fix(app.module.ts): remove duplicação de SessionRepository como provedor no AppModule</div>
                                     </div>
                                 </div>
                             </section>
@@ -223,23 +210,16 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#b910465</div>
-                                        <div class="message">chore(deps): bump nodemailer from 6.9.6 to 6.9.7 (#49)
-
-Bumps [nodemailer](https://github.com/nodemailer/nodemailer) from 6.9.6 to 6.9.7.
-- [Release notes](https://github.com/nodemailer/nodemailer/releases)
-- [Changelog](https://github.com/nodemailer/nodemailer/blob/master/CHANGELOG.md)
-- [Commits](https://github.com/nodemailer/nodemailer/compare/v6.9.6...v6.9.7)
-
----
-updated-dependencies:
-- dependency-name: nodemailer
-  dependency-type: direct:production
-  update-type: version-update:semver-patch
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;
-Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.github.com&gt;</div>
+                                        <div class="sha">#3f2dfda</div>
+                                        <div class="message">📦 chore(package.json): adiciona a dependência moment
+📄 feat(prisma/migrations): adiciona arquivo de migração para alterações no banco de dados
+📄 feat(prisma/schema.prisma): adiciona as colunas toCombine e combinedHours na tabela User
+🐛 fix(server.ts): altera o caso da variável de porta de port minúscula para PORT maiúscula
+📄 feat(availability-repository.ts): adiciona método findByWeekDay para buscar disponibilidades por dia da semana
+📄 feat(availability-repository.ts): adiciona método deleteBy para deletar disponibilidades por critérios
+📄 feat(availability.service.ts): adiciona serviço para criar e deletar disponibilidades
+📄 feat(session.service.ts): adiciona serviço para criar sessões
+📄 feat(session.controller.ts): adiciona controller para criar sessões</div>
                                     </div>
                                 </div>
                             </section>
@@ -301,7 +281,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.103353867214224 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.188227241615344 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -742,7 +722,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 3.35m out of 105m repositories</span>
+                                    <span class="gh">ranked 3.35m out of 125m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">2</div>
                                     </div>
@@ -882,7 +862,7 @@ Co-authored-by: dependabot[bot] &lt;49699333+dependabot[bot]@users.noreply.githu
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 1 Nov 2023, 15:05:17 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 2 Nov 2023, 15:05:09 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
