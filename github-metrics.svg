@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="805" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="824" class="">
     <defs>
         <style/>
     </defs>
@@ -30,20 +30,20 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -189,9 +189,11 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#84e4897</div>
-                                        <div class="message">🔧 fix(app.module.ts): adiciona SessionService como um provedor no AppModule
-🔧 fix(app.module.ts): remove duplicação de SessionRepository como provedor no AppModule</div>
+                                        <div class="sha">#4256f98</div>
+                                        <div class="message">🐛 fix(session.service.ts): corrige a criação de uma sessão e atualização de transação de pagamento
+✨ feat(session.service.ts): adiciona métodos para aceitar e recusar uma sessão
+🐛 fix(session.controller.ts): trata erros ao criar e manipular sessões
+✨ feat(session.controller.ts): adiciona endpoints para aceitar e recusar uma sessão</div>
                                     </div>
                                 </div>
                             </section>
@@ -203,23 +205,47 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
+                                        Pushed 2 commits in
                                         <span class="repo">MentoraBr/mentora-api</span>
                                     </div>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
-                                        <div class="sha">#3f2dfda</div>
-                                        <div class="message">📦 chore(package.json): adiciona a dependência moment
-📄 feat(prisma/migrations): adiciona arquivo de migração para alterações no banco de dados
-📄 feat(prisma/schema.prisma): adiciona as colunas toCombine e combinedHours na tabela User
-🐛 fix(server.ts): altera o caso da variável de porta de port minúscula para PORT maiúscula
-📄 feat(availability-repository.ts): adiciona método findByWeekDay para buscar disponibilidades por dia da semana
-📄 feat(availability-repository.ts): adiciona método deleteBy para deletar disponibilidades por critérios
-📄 feat(availability.service.ts): adiciona serviço para criar e deletar disponibilidades
-📄 feat(session.service.ts): adiciona serviço para criar sessões
-📄 feat(session.controller.ts): adiciona controller para criar sessões</div>
+                                        <div class="sha">#dc42c8a</div>
+                                        <div class="message">🔧 fix(availability.controller.ts): remove importação desnecessária
+✨ feat(availability.controller.ts): adiciona rota de busca de disponibilidade por data e usuário
+✨ feat(availability.controller.ts): adiciona rota de busca de dias da semana por usuário
+✨ feat(availability.controller.ts): adiciona rota de busca de disponibilidade por usuário para visualização de perfil
+🔧 fix(availability.controller.ts): corrige mensagem de erro ao buscar disponibilidade por usuário
+🔧 fix(availability.controller.ts): corrige mensagem de erro ao buscar dias da semana por usuário
+✨ feat(payment.controller.ts): adiciona controller de pagamento de sessão
+✨ feat(payment.controller.ts): adiciona rota de listagem de cartões de pagamento
+✨ feat(payment.controller.ts): adiciona rota de criação de cartão de pagamento
+✨ feat(payment.controller.ts): adiciona rota de busca de cartão de pagamento por ID
+✨ feat(payment.controller.ts): adiciona rota de atualização de cartão de pagamento
+✨ feat(payment.controller.ts): adiciona rota de exclusão de cartão de pagamento
+✨ feat(session.controller.ts): adiciona validação de status da sessão
+✨ feat(session.controller.ts): adiciona rota de criação de sessão
+✨ feat(session.controller.ts): adiciona rota de busca de sessão por ID
+✨ feat(session.controller.ts): adiciona rota de atualização de sessão
+✨ feat(session.controller.ts): adiciona rota de exclusão de sessão
+🔧 fix(session.controller.ts): remove rota não utilizada</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#3fbf5ba</div>
+                                        <div class="message">📦 add(session.factory.ts): adiciona a classe SessionFactory para criar e construir instâncias de Session
+📦 add(user-topic.factory.ts): adiciona a classe UserTopicFactory para criar e construir instâncias de UserTopic
+
+Essas classes são responsáveis por criar e construir instâncias dos modelos Session e UserTopic, respectivamente. A classe SessionFactory possui métodos estáticos para criar e construir instâncias de Session, enquanto a classe UserTopicFactory possui métodos estáticos para criar e construir instâncias de UserTopic.
+
+A classe SessionFactory possui um método estático `create` que recebe uma instância do PrismaClient e opções de substituição e retorna uma Promise que cria uma nova instância de Session usando o método `build` e a salva no banco de dados usando o método `prisma.session.create`.
+
+A classe SessionFactory também possui um método estático `build` que recebe opções de substituição e uma instância do PrismaClient opcionalmente e retorna uma nova instância de Session com valores falsos gerados aleatoriamente usando a biblioteca faker-js. Se uma instância do PrismaClient for fornecida, a classe SessionFactory também cria e associa instâncias de UserTopic e Availability usando os métodos `createUserTopic` e `createAvailability`.
+
+A classe UserTopicFactory possui um método estático `create` que recebe uma instância do PrismaClient e opções de substituição e retorna uma Promise que cria uma nova instância de UserTopic usando o método `build` e a salva no banco de dados usando o método `prisma.userTopic.create`.
+
+A classe UserTopicFactory também possui um método estático `build` que recebe opções de substituição e uma instância do PrismaClient opcionalmente e retorna uma nova instância de UserTopic com valores falsos gerados aleatoriamente usando a biblioteca faker-js. Se uma instância do PrismaClient for fornecida, a classe UserTopicFactory também cria e associa uma instância de Topic usando o método `create` da classe TopicFactory.</div>
                                     </div>
                                 </div>
                             </section>
@@ -281,7 +307,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.527720739219724 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="32.612594113620816 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -722,7 +748,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 3.35m out of 91m repositories</span>
+                                    <span class="gh">ranked 3.13m out of 52.6m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">2</div>
                                     </div>
@@ -862,7 +888,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 6 Nov 2023, 15:05:16 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 7 Nov 2023, 15:04:56 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
