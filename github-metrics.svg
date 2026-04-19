@@ -179,7 +179,7 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">akii09/pdfx</span>
+                                        <span class="repo">isaacus-dev/semchunk</span>
                                     </div>
                                 </div>
                             </section>
@@ -192,7 +192,7 @@
                                     </svg>
                                     <div class="content">
                                         Starred
-                                        <span class="repo">productdevbook/hucre</span>
+                                        <span class="repo">chonkie-inc/chonkie</span>
                                     </div>
                                 </div>
                             </section>
@@ -220,7 +220,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 11 Apr 2026, 21:51:26 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 18 Apr 2026, 21:53:06 (timezone America/Sao_Paulo) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
